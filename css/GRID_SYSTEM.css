@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+/*--- STYLE CHO 1000PX TRO LEN--*/
+body{font-family:"" }
+*{ box-sizing:border-box}
+.container{ max-width:1200px; margin:0 auto;}
+[class*="col-"] {
+    float: left;
+    padding: 15px; 
+  
+}
+.modul{margin: auto}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.img-responsive{ width:100%; height:auto}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.fr{ float:right}
+.tcenter{ text-align:center}
+.tright{ text-align:right}.float-right{float:right!important;}
+.clear{clear: both;}
+.no-padding{padding: 0!important;}
+.center-block{ clear:both; display:table; margin:auto}
+.modau{background-color: darkolivegreen; padding: 50px}
+div{margin: 0; padding: 0; list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center ; margin: 0; padding: 0; list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	}
+nav .con ul li a{text-decoration: none; 
+	color: #000000;
+	padding: 5px 20px;
+	border-radius: 10px;
+	display: block;}
+	nav ul li{ position: relative}  
+nav .con ul li a:hover{ border: 1px solid #fff}
+.con{background-color: #0FC3C5;border-radius: 10px; padding: 10px; list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center ; margin: 0; padding: 0; list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center; }
+nav ul{display: flex; margin: 10px; padding: 10px }
